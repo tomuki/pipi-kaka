@@ -44,7 +44,38 @@ body::before {
   cursor: pointer;
   opacity: 0.4;
   transition: opacity 0.2s ease;
+  color: #111;
+  text-decoration: none;
+  display: inline-block;
+  font-family: inherit;
 }
+.nav-link:visited {
+  color: #111;
+}
+
+.nav-link:focus-visible {
+  outline: 1px solid rgba(0, 0, 0, 0.6);
+  outline-offset: 6px;
+}
+.site-header a {
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.4;
+  transition: opacity 0.2s ease;
+}
+
+.site-header a:hover {
+  opacity: 0.7;
+}
+
+.site-header a:focus-visible {
+  outline: 1px solid rgba(0, 0, 0, 0.6);
+  outline-offset: 6px;
+}
+
 .nav-link:hover {
   opacity: 0.7;
 }
