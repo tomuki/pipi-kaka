@@ -468,9 +468,14 @@ p {
     }
 
     a {
-  -webkit-text-fill-color: #111;
+      -webkit-text-fill-color: #111;
     }
-  
+    .concepts-list {
+      color: #111;
+      text-decoration: none;
+    }
+    .concepts-list:visited {
+      color: #111;
     .nav {
       flex-direction: row;
       flex-wrap: wrap;
