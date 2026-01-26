@@ -491,6 +491,9 @@ p {
     p {
       max-width: 100%;
     }
+    .container {
+  padding-top: 140px;
+    }
   
     .project-images {
       margin: 50px 0;
