@@ -89,7 +89,22 @@ a:active {
   color: #111;
   text-decoration: none;
 }
-
+a:focus-visible,
+button:focus-visible {
+  outline: 1px solid rgba(0, 0, 0, 0.6);
+  outline-offset: 6px;
+}
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+.site-header a {
+  padding: 6px 10px;
+}
+.nav-link:focus-visible,
+.project-link:focus-visible,
+.concept-btn:focus-visible {
+  opacity: 1;
+}
 /* =========================
    CONCEPTS (interactive)
    ========================= */
@@ -434,6 +449,9 @@ p {
     .concepts-layout {
       grid-template-columns: 1fr;
       gap: 30px;
+    }
+    .container {
+      padding-top: 140px;
     }
   
     .project-list {
